@@ -12,17 +12,25 @@ Purpose
 Use an ESP32-S3 to release the door lock and monitor when the door buzzer is
 pressed.
 
+The 12V AC from the buzzer is converted to DC and regulated to 5V for use with
+the optocoupler.
+
+The normally open relay releases the door lock by connecting 0V AC to complete
+the unlocking circuit.
+
 Usage
 -----
 
-This is a KiCad project.
+This is a KiCad project. The PCB only exists to plan the breadboard layout to
+minimise the number of wires.
 
 Schematic
 ----------
 
 Header J3 is aligned to match the K1 relay on a breadboard.
 
-Header J4 is for future use to allow the ESP32-S3 to connect/disconnect the phone buzzer.
+Header J4 is for future use to allow the ESP32-S3 to connect/disconnect the
+phone buzzer.
 
 .. image:: render/esp32-door-buzzer-sch.svg
    :alt: Schematic
