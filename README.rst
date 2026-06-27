@@ -24,6 +24,8 @@ Usage
 This is a KiCad project. The PCB only exists to plan the breadboard layout to
 minimise the number of wires.
 
+* `Software for the ESP32-S3 <https://github.com/nomis/esp32-door-buzzer>`_
+
 Schematic
 ----------
 
